@@ -1,0 +1,30 @@
+#name{
+    font-style: oblique;
+    color: yellow;
+    font-weight:bold;
+}
+h1,h2,h3{
+    color: green;
+}
+.alltitle{
+
+}
+
+#bodybgm{
+    background: deepskyblue;
+
+}
+.lines{
+    border: 0.5px solid gray;
+}
+
+.subtitle  {
+
+}
+.first_ul{
+
+}
+.imge{
+    width: 30%;
+    height: 300vm;
+}
