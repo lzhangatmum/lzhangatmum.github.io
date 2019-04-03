@@ -3,7 +3,7 @@
     background: #F0F0F0 ;
     text-align: center;
     font-family: sans-serif;
-    size: 22pt;
+    font-size: 22pt;
     font-weight: bold;
 }
 
@@ -12,15 +12,12 @@ h1,h2,h3{
     color: #A4A400 ;
 }
 .piebody{
-
     width: 1024px;
     background: white;
     font-size: 18pt;
 
 }
-h1{
-    size:22pt;
-}
+
 
 .hrstyle{
     border: 0.5px solid gray;
