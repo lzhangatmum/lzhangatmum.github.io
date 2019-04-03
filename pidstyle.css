@@ -1,0 +1,39 @@
+
+.title_head{
+    background: #F0F0F0 ;
+    text-align: center;
+    font-family: sans-serif;
+    size: 22pt;
+    font-weight: bold;
+}
+
+h1,h2,h3{
+    text-decoration:underline;
+    color: #A4A400 ;
+}
+.piebody{
+    horiz-align: center;
+    width: 1024px;
+    background: white;
+    font-size: 18pt;
+
+}
+
+.hrstyle{
+    border: 0.5px solid gray;
+}
+
+.sub_title{
+    background: #F0F0F0 ;
+    text-align: left;
+    font-family: sans-serif;
+    size: 22pt;
+    font-weight: bold;
+}
+.boot_context{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background:  yellow ;
+    margin-bottom: 20px;
+}
