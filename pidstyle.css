@@ -12,11 +12,14 @@ h1,h2,h3{
     color: #A4A400 ;
 }
 .piebody{
-    horiz-align: center;
+
     width: 1024px;
     background: white;
     font-size: 18pt;
 
+}
+h1{
+    size:22pt;
 }
 
 .hrstyle{
@@ -27,7 +30,6 @@ h1,h2,h3{
     background: #F0F0F0 ;
     text-align: left;
     font-family: sans-serif;
-    size: 22pt;
     font-weight: bold;
 }
 .boot_context{
