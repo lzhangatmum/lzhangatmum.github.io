@@ -1,0 +1,57 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+table{
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+
+}
+
+th,td {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {background-color: darkgray;}
+
+table>thead{
+    text-align: center;
+    background-color: #404040;
+    color: white;
+}
+
+.detail{
+    font: 16pt bold;
+}
+
+input[type=text ], input[type=date], select{
+    width: 35%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#clear {
+    background-color: red; /* Green */
+}

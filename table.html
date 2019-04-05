@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HMW.3 Table</title>
+    <link rel="stylesheet" href="table.css" type="text/css">
+</head>
+<body>
+
+<form>
+    <div class="detail">Task</div>
+    <label title="Task">
+        <input type="text" id="in" placeholder="put anything">
+    </label>
+
+    <div class="detail">Required by</div>
+    <label title="Task">
+        <input type="date">
+    </label>
+
+    <div class="detail">Category</div>
+    <select>
+        <option value="personal">Personal</option>
+        <option value="public">Public</option>
+        <option value="private">Private</option>
+        <option value="protected">Protected</option>
+    </select>
+    <div class="detail">
+        <input type="submit" value="Save task" class="button">
+        <input type="submit" value="Clear task" class="button" id="clear">
+    </div>
+
+</form>
+
+<form>
+    <table>
+        <thead>
+        <tr>
+            <td>Name</td>
+            <td>Due</td>
+            <td>Category</td>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>Return Library books</td>
+            <td>2013-10-14</td>
+            <td>Personal</td>
+        </tr>
+        <tr>
+            <td>Perform project demo to stakeholders</td>
+            <td>2013-10-14</td>
+            <td>Work</td>
+        </tr>
+        <tr>
+            <td>Meet friends for dinner</td>
+            <td>2013-10-14</td>
+            <td>Personal</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <input type="submit" value="Add task" class="button">
+</form>
+
+</body>
+</html>
