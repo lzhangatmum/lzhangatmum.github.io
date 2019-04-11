@@ -24,7 +24,7 @@ window.onload = function () {
 
        context.value =  anima[a % (anima.length)];
        a++;
-       setTimeout(run, 100);
+       setTimeout(run, 200);
     }
 }
 
